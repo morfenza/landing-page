@@ -29,6 +29,15 @@ a {
   text-decoration: none;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 24px;
+  color: white;
+}
+
 .upper-header {
   display: flex;
   margin-bottom: 32px;
@@ -86,6 +95,7 @@ a {
   align-items: center;
   padding: 24px;
 }
+
 
 .card {
   width: 800px;
