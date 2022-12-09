@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -7,6 +8,15 @@ header {
   padding: 12px 128px;
   display: flex;
   flex-direction: column;
+}
+
+main {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 ul {
@@ -31,6 +41,57 @@ a {
 
 .coffee-hand {
   margin-left: auto;
+  border-radius: 15%;
+  border: 3px brown solid;
+}
+
+.main-title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.upper-main {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.coffee-square {
+  max-width: 250px;
+}
+
+.coffee-image {
+  height: 200px;
+  width: 200px;
+  border: 3px gray solid;
+  border-radius: 25%;
+}
+
+.text {
+  flex-wrap: wrap;
+}
+
+.middle-main {
+  display: flex;
+  flex-direction: column;
+  padding: 256px;
+  gap: 36px;
+  background-color: #E5E7EB;
+}
+
+#quotation {
+  flex-wrap: wrap;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#quotation-bottom{
+  align-self: flex-end;
+  font-weight: 800;
+  font-size: 24px;
 }
 
 .presentation{
