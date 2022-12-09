@@ -75,9 +75,27 @@ a {
 .middle-main {
   display: flex;
   flex-direction: column;
-  padding: 256px;
+  padding: 128px;
   gap: 36px;
   background-color: #E5E7EB;
+}
+
+.bottom-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.card {
+  width: 800px;
+  padding: 36px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  color: white;
 }
 
 #quotation {
@@ -92,6 +110,23 @@ a {
   align-self: flex-end;
   font-weight: 800;
   font-size: 24px;
+}
+
+#top-text {
+  font-weight: bold;
+}
+
+#bottom-text {
+  font-size: small;
+}
+
+#card-button {
+  color: white;
+  font-weight: 400;
+  background-color: #3882F6;
+  border-radius: 8px;
+  border: solid 2px white;
+  padding: 8px 16px;
 }
 
 .presentation{
